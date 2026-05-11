@@ -31,4 +31,6 @@
 | 17008.75 | 17034 | 18990.25 | 1077 | 494.5 | 832 | 812 |
 
 ## Notes
-Compiled with CXXFLAGS set to: -O2 -march=alderlake -mtune=alderlake -pipe for the above results
+Compiled with CXXFLAGS set to: -O2 -march=alderlake -mtune=alderlake -pipe via GCC 14.2.0 for the above results.
+Tests were executed on a 12600K with minor OC (5000Mhz All P-Core, 4000Mhz All E-Core).
+The bytes were sourced from /dev/urandom.
